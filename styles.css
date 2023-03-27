@@ -1,0 +1,95 @@
+h1{
+  color: hwb(297 28% 33%);
+  font-family: 'Creepster', cursive;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 3em;
+  line-height: 1.5em;
+  vertical-align: middle;
+  text-align: center;
+  
+}
+/*header*/
+body header{
+  display:block;
+  width: 80%;
+  border-radius: 15%;
+  background-color: #e8abf0;
+  padding-right: 50px;
+}
+/*navigation*/
+li {
+  display: inline;
+  padding-left: 6%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e8abf0;
+  font-family: cursive;
+  border-radius: 20%;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: hwb(297, 28, 33);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #ba80e1;
+  color: rgb(242, 217, 103);
+  border-radius: 50px;
+}
+
+
+
+html {
+  background-color: #e8abf0;
+  background-image: url(juice\ wrld\ legends\ never\ die\ wallpaper.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+
+
+body {
+  
+  /*background-color: rgb(186, 144, 217);*/
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 640px;
+  max-width: 960px;
+  width: 85%;
+}
+
+section {
+  background-color: #ba80e1;
+}
+
+/*image rounded corners*/
+
+img.rounded-corners {
+    border-radius: 30px;
+  }
+
+
+
+  /*footer*/
+  footer {
+    background-color: #e8abf0;
+}
+
+p {
+  background-color: #ba80e1;
+}
