@@ -10,6 +10,7 @@ h1{
 }
 h2 {
   color:#ba80e1;
+  font-family: initial;
 }
 
 
@@ -115,12 +116,7 @@ aside {
 
 
 /*form styles*/
-table {
-  border-collapse: collapse;
-  width: 100%;
-  color: #ba80e1;
-  
-}
+
 
 input[type=text] {
   border: 4px solid rgb(167, 11, 239);
@@ -139,11 +135,7 @@ input[type=reset] {
   border-radius: 5px;
 }
 
-th, td {
-  padding: 8px;
-  text-align: left;
-  border-bottom: 3px solid rgb(166, 71, 171);
-}
+
 
 body {
 
@@ -180,3 +172,66 @@ div.desc {
   font-family: cursive;
   
 }
+
+
+
+/*  Table Styles*/
+
+ th, td {
+  border: 2px solid rgb(136, 35, 203);
+  border-radius: 10px;
+  width: 80%;
+  color: #9822e7;
+  padding: 10px;
+  text-align: left;
+  background-color: #d78dd3;
+}
+
+blockquote {
+  border: 2px solid rgb(136, 35, 203);
+  border-radius: 3%;
+  border-color: #7c1cbc;
+  font-family: cursive;
+  background-color: #d78dd3;
+  color: #7c1cbc;
+  
+
+}
+
+/* Card groups*/ 
+.card-group {
+  padding-top: 9%;
+  padding-bottom: 9%;
+  padding-right: 9%;
+  background-color: #e8abf0;
+
+}
+.card-text  {
+  color: #7c319f;
+  font-family: cursive;
+}
+
+.card-title {
+  color: #7c319f;
+  font-family: initial;
+}
+
+
+.card-body {
+  background-color: #d9a9ef;
+}
+
+.card-footer {
+  color: #a263cb;
+}
+
+.text-muted {
+  background-color: #d7c0e6;
+}
+
+
+.accordion-body {
+  color: #7c1cbc;
+  font-family: cursive;
+}
+
